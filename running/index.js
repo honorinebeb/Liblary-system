@@ -7,13 +7,13 @@ var Newbook1={
 };
 add(Newbook1);
 displayBooks();
-update(3,'author','p.bruno');
+update(6,'author','p.bruno');
 var up={
-    id: 6,
+
      title: 'The man in the jungle',
      author: 'Felnarndo',
-     year: 1990 
+     year: 1990,
 }
-updatemanyelement(up);
-remove(4);
+updatemanyelement(2,up);
+remove(5);
 
