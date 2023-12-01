@@ -1,4 +1,4 @@
-const{add,displayBooks,update,updatemanyelement}=require("../controller/bookController");
+const{add,displayBooks,update,updatemanyelement,remove}=require("../controller/bookController");
 
 var Newbook1={
     title: 'The Great ingland',
@@ -8,5 +8,12 @@ var Newbook1={
 add(Newbook1);
 displayBooks();
 update(3,'author','p.bruno');
-updatemanyelement()
+var up={
+    id: 6,
+     title: 'The man in the jungle',
+     author: 'Felnarndo',
+     year: 1990 
+}
+updatemanyelement(up);
+remove(4);
 
