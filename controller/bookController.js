@@ -50,7 +50,9 @@ const remove=(id)=>{
     } else {
       var remaining=[];
       remaining=booksDatabase.filter(ele=>ele.id!==id);
+      console.log("\n books delete!\n");
       console.log(remaining);
+      
       
     }  
   }
